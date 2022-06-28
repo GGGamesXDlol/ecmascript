@@ -49,3 +49,18 @@ let team2 = ["Pedro", "Pablo", "John"]
 
 let education = ["David", ...team1, ...team2]
 console.log(education);
+
+{
+    var globalVar = "global var";
+}
+
+{
+    let globalLet = "Global Let";
+console.log(globalLet);
+}
+
+console.log(globalVar);
+
+var a = "b";
+a = "a";
+console.log(a);
